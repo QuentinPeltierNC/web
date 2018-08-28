@@ -1,0 +1,8 @@
+
+netcom.default_controller_hello:
+  path: '/netcom/hello/{name}'
+  defaults:
+    _controller: '\Drupal\netcom\Controller\DefaultController::hello'
+    _title: 'netcom'
+  requirements:
+    _permission: 'access content'
